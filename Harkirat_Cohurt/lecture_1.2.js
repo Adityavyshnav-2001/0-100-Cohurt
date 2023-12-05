@@ -34,4 +34,20 @@ for(let i =0;i<ages.length ; i++){
 }
 console.log(bignum + " is the biggest number ")
 
+//object creation 
+const user2=[{
+    firstName:"Ramesh",
+    age:50
+},
+{
+    firstName:"Suresh",
+    age:47
+}
+]
+
+for(let i=0;i<user2.length;i++){
+    if(user2[i]["age"]<48){
+console.log(user2[i]["firstName"])
+}
+}
 

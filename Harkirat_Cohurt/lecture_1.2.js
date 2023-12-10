@@ -1,7 +1,7 @@
 var a=1;
 console.log(a);
 
-let firstname="Adityavyshnav";
+let firstname="Adityavyshnavc";
 let Age=22;
 let isMarried =false;
 

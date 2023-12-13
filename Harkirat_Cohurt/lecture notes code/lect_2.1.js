@@ -14,3 +14,4 @@ function myOwnsetTimeout(fn,duration){
 myOwnsetTimeout(function() {
     console.log("YO BRO");
 },10000)
+

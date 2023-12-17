@@ -1,5 +1,12 @@
-let a="Adityavyshnav"
-console.log(a.slice(0,4)) 
 
-let score=100.45688
-console.log(score.toFixed(2))
+const myuser={
+    name: " Adityavyshnav",
+    email: "adityavyshnav@gmail.com",
+    age:18,
+}
+
+myuser.feelings=function(){
+    console.log(`Hello dear ${this.name}`);
+}
+console.log(myuser.feelings());
+
